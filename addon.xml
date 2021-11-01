@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="mrpeterd.kodi-foxtelgo-repo" name="MrPeterD-Kodi-FoxtelGo Repo" version="1.0.0" provider-name="MrPeterD">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="MrPeterD-Kodi-FoxtelGo Repo">
+            <info compressed="false">http://raw.githubusercontent.com/mrpeterd/kodi-foxtelgo/_repo/addons.xml</info>
+            <checksum>http://raw.githubusercontent.com/mrpeterd/kodi-foxtelgo/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://raw.githubusercontent.com/mrpeterd/kodi-foxtelgo/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>My Kodi Repo's</summary>
+            <description>My Kodi Repo's</description>
+            <platform>all</platform>
+    </extension>
+</addon>
